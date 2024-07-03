@@ -1,6 +1,6 @@
 # Functions
 from random import randint
-from math import floor, ceil, round
+from math import floor, ceil
 """ 
 
 def function_name(params, ...):
@@ -56,4 +56,8 @@ str(1) # "1"
 int(10.5) # 10
 float(10) # 10.0
 
-sum()
+
+names = ["Hugo", "Pago", "Luis"]
+
+results = list(filter(lambda valor: valor.__contains__('L'), names))
+print(results) # ["Hugo"]
